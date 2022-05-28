@@ -1,0 +1,11 @@
+@import "forms/labels";
+@import "forms/form-text";
+@import "forms/form-control";
+@import "forms/form-select";
+//comentamos esta linea para no importar esta clase, debido a que mi editor al parecer tiene un bug que no reconocia una propiedad al momento de compilar
+//y arrojaba el warning "unknown property color-adjust" en el CSS
+// @import "forms/form-check"; 
+@import "forms/form-range";
+@import "forms/floating-labels";
+@import "forms/input-group";
+@import "forms/validation";
