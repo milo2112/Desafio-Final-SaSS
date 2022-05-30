@@ -5031,7 +5031,6 @@ fieldset:disabled .btn {
 
 .card-title {
   margin-bottom: 0.5rem;
-  color: #cf649a;
 }
 
 .card-subtitle {
@@ -8636,7 +8635,7 @@ fieldset:disabled .btn {
 }
 
 /* rtl:end:remove */
-.text-primary {
+.text-primary, .card-title {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
 }

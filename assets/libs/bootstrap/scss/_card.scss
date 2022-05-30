@@ -56,7 +56,9 @@
 
 .card-title {
   margin-bottom: $card-title-spacer-y;
-  color: $card-color-tittle;
+  // Extendemos propiedad de nueva variante de color para cambiado en el Tittle de la card
+  @extend .text-primary;
+  //FIN
 }
 
 .card-subtitle {
