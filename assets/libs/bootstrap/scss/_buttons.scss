@@ -20,6 +20,7 @@
   @include transition($btn-transition);
   // Extendemos propiedad de color de letra para ser cambiado en el boton de la card
   @extend .text-light;
+  //
   &:hover {
     color: $body-color;
     text-decoration: if($link-hover-decoration == underline, none, null);
